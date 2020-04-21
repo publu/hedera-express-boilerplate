@@ -1,0 +1,50 @@
+<!-- This is a static file -->
+<!-- served from your routes in server.js -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Welcome to Glitch!</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="A cool thing made with Glitch">
+    <link id="favicon" rel="icon" href="https://glitch.com/edit/favicon-app.ico" type="image/x-icon">
+
+    <!-- import the webpage's stylesheet -->
+    <link rel="stylesheet" href="/style.css">
+
+    <!-- import the webpage's client-side javascript file -->
+    <script src="/script.js" defer></script>
+  </head>
+  <body>
+    <header>
+      <h1>The Trust Layer of The Internet</h1>
+    </header>
+
+    <main>
+      <h2>Hi</h2>
+
+      <p>This is an example balance checker app with an express backend</p>
+      
+      <form>
+        <label>
+           Type an account id to check the balance (on TestNet)
+          <input name="todo" type="text" maxlength="12" required placeholder="0.0.12">
+        </label>
+        <button type="submit" id="submit-account">Check Balance</button>
+      </form>
+
+      <section class="todo">
+        <ul id="todo">
+        </ul>
+      </section>
+    </main>
+
+    <footer>Decentralized on <a href="https://hedera.com/">Hedera Hashgraph</a></footer>
+
+    <!-- include the Glitch button to show what the webpage is about and
+          to make it easier for folks to view source and remix -->
+    <div class="glitchButton" style="position:fixed;top:2em;right:20px;"></div>
+    <script src="https://button.glitch.me/button.js"></script>
+  </body>
+</html>
