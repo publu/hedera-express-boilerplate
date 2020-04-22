@@ -7,7 +7,7 @@ const express = require("express");
 
 const app = express();
 
-var hedera = require("./hedera").myApp;
+var hedera = require("./hedera");
 
 hedera.init();
 
