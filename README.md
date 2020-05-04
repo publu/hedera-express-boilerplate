@@ -1,3 +1,29 @@
+## Introduction
+
+An Express-based website that serves an HCS-api and landing page, and some data. It connects to the Hedera Hashgraph network via hash-sdk.
+
+## Built with
+
+* [Hedera Hashgraph](https://www.hedera.com/) - The enterprise-grade public network
+* [Hash-SDK](https://github.com/hashingsystems/hash.js) - The easiest way to use Hedera in JavaScript
+* [Express.js](https://expressjs.com/) - A fast, unopinionated web framework for node.js
+* Launched on [Glitch](https://glitch.com/) - instantly create, remix, edit, and host an app, bot or site
+
+## Questions & contributions
+
+If you have any questions or feedback on how we can improve this demo, [reach out](https://twitter.com/hashingsystems) to us or post a question/option on our [forum](https://dailystamp.io/).
+
+## Prerequisites
+
+This demo assumes that you have an account on the Hedera testnet. For example:
+
+```
+ACCOUNT_ID=0.0.123456789
+PRIVATE_KEY=302e020100300506032b657004220420f4361ec73dc43e568f1620a7b7ecb7330790b8a1c7620f1ce353aa1de4f0eaa6
+```
+
+If you don’t have one, sign up using [Composer](https://chrome.google.com/webstore/detail/composer-for-hedera-hashg/hdjnnemgikeoehneddegfcmkljenlean?hl=en). You can follow [this quick tutorial](https://medium.com/hashingsystems/how-to-get-started-on-hedera-and-composer-in-5-easy-steps-2c2cbb6af09d) to get started.
+
 # hello-express
 
 A server that serves a webpage, its resources, and some data
@@ -28,3 +54,9 @@ Click `Show` in the header to see your app live. Updates to your code will insta
 Find out more [about Glitch](https://glitch.com/about).
 
 ( ᵔ ᴥ ᵔ )
+
+## Disclaimer
+
+This is just a simple demo. Please use responsibly.
+
+[Contact](https://twitter.com/hashingsystems) us if you need anything.
